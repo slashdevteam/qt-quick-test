@@ -1,0 +1,8 @@
+*.pro.user
+*.o
+Makefile
+qrc_resources.cpp
+moc_*
+.qmake.stash
+*.qmlc
+test

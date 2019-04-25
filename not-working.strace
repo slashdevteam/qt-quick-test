@@ -1,0 +1,2023 @@
+execve("./test-app", ["./test-app"], 0x7eb08d28 /* 18 vars */) = 0
+brk(NULL)                               = 0x1049000
+uname({sysname="Linux", nodename="GFMM01791329", ...}) = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f1c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 3, 0) = 0x76f14000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5Quick.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340V\n\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=3493100, ...}) = 0
+mmap2(NULL, 3560244, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76b88000
+mprotect(0x76ec5000, 65536, PROT_NONE)  = 0
+mmap2(0x76ed5000, 98304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33d000) = 0x76ed5000
+mmap2(0x76eed000, 820, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76eed000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5Gui.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\2704\n\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=4797716, ...}) = 0
+mmap2(NULL, 4872412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x766e2000
+mprotect(0x76b66000, 65536, PROT_NONE)  = 0
+mmap2(0x76b76000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x484000) = 0x76b76000
+mmap2(0x76b85000, 10460, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76b85000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5Core.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0P\334\6\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=5080152, ...}) = 0
+mmap2(NULL, 5155340, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x761f7000
+mprotect(0x766c4000, 65536, PROT_NONE)  = 0
+mmap2(0x766d4000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4cd000) = 0x766d4000
+mmap2(0x766df000, 10764, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x766df000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\260\341\6\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1265196, ...}) = 0
+mmap2(NULL, 1337044, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x760b0000
+mprotect(0x761de000, 65536, PROT_NONE)  = 0
+mmap2(0x761ee000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12e000) = 0x761ee000
+mmap2(0x761f5000, 5844, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x761f5000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\10\321\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=116308, ...}) = 0
+mmap2(NULL, 180532, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76083000
+mprotect(0x7609f000, 61440, PROT_NONE)  = 0
+mmap2(0x760ae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x760ae000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/tls/v7l/neon/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/v7l/neon/vfp", 0x7ea504f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/v7l/neon/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/v7l/neon", 0x7ea504f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/v7l/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/v7l/vfp", 0x7ea504f0)  = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/v7l/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/v7l", 0x7ea504f0)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/neon/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/neon/vfp", 0x7ea504f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/neon/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/neon", 0x7ea504f0)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls/vfp", 0x7ea504f0)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/tls", 0x7ea504f0)          = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/v7l/neon/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/v7l/neon/vfp", 0x7ea504f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/v7l/neon/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/v7l/neon", 0x7ea504f0)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/v7l/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/v7l/vfp", 0x7ea504f0)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/v7l/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/v7l", 0x7ea504f0)          = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/neon/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/neon/vfp", 0x7ea504f0)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/neon/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/neon", 0x7ea504f0)         = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/vfp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/lib/vfp", 0x7ea504f0)          = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\334l\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1222488, ...}) = 0
+mmap2(NULL, 1291660, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75f47000
+mprotect(0x7606d000, 65536, PROT_NONE)  = 0
+mmap2(0x7607d000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x126000) = 0x7607d000
+mmap2(0x76080000, 9612, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76080000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5Qml.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\370\361\6\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=3529272, ...}) = 0
+mmap2(NULL, 3598936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75bd8000
+mprotect(0x75f27000, 65536, PROT_NONE)  = 0
+mmap2(0x75f37000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x34f000) = 0x75f37000
+mmap2(0x75f46000, 2648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x75f46000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5Network.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0X\266\2\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1458156, ...}) = 0
+mmap2(NULL, 1526980, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75a63000
+mprotect(0x75bc2000, 65536, PROT_NONE)  = 0
+mmap2(0x75bd2000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15f000) = 0x75bd2000
+mmap2(0x75bd7000, 3268, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x75bd7000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\220E\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=460220, ...}) = 0
+mmap2(NULL, 524408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x759e2000
+mprotect(0x75a52000, 61440, PROT_NONE)  = 0
+mmap2(0x75a61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6f000) = 0x75a61000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\254H\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=92656, ...}) = 0
+mmap2(NULL, 164428, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x759b9000
+mprotect(0x759cf000, 61440, PROT_NONE)  = 0
+mmap2(0x759de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x759de000
+mmap2(0x759e0000, 4684, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x759e0000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libGLESv2.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0X\273\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=4575722, ...}) = 0
+mmap2(NULL, 1019392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x758c0000
+mprotect(0x75984000, 28672, PROT_NONE)  = 0
+mmap2(0x7598b000, 86016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc3000) = 0x7598b000
+mmap2(0x759a0000, 101888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x759a0000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libpng16.so.16", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\330B\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=165852, ...}) = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f12000
+mmap2(NULL, 230072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75887000
+mprotect(0x758af000, 61440, PROT_NONE)  = 0
+mmap2(0x758be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x758be000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libharfbuzz.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0008_\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=547112, ...}) = 0
+mmap2(NULL, 613156, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x757f1000
+mprotect(0x75876000, 61440, PROT_NONE)  = 0
+mmap2(0x75885000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x84000) = 0x75885000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\300\32\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=79468, ...}) = 0
+mmap2(NULL, 143584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x757cd000
+mprotect(0x757e0000, 61440, PROT_NONE)  = 0
+mmap2(0x757ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x757ef000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libicui18n.so.59", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\10G\t\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=2012756, ...}) = 0
+mmap2(NULL, 2078472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x755d1000
+mprotect(0x757b5000, 61440, PROT_NONE)  = 0
+mmap2(0x757c4000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x757c4000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libicuuc.so.59", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\10\353\3\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1395124, ...}) = 0
+mmap2(NULL, 1464944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7546b000
+mprotect(0x755b5000, 65536, PROT_NONE)  = 0
+mmap2(0x755c5000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14a000) = 0x755c5000
+mmap2(0x755d0000, 2672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x755d0000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0l\t\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9684, ...}) = 0
+mmap2(NULL, 73916, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75458000
+mprotect(0x7545a000, 61440, PROT_NONE)  = 0
+mmap2(0x75469000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x75469000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0XX\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=990344, ...}) = 0
+mmap2(NULL, 1056232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75356000
+mprotect(0x75447000, 61440, PROT_NONE)  = 0
+mmap2(0x75456000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf0000) = 0x75456000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libGAL.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0H\367\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=5049137, ...}) = 0
+mmap2(NULL, 1064796, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75252000
+mmap2(0x7532a000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd8000) = 0x7532a000
+mmap2(0x75336000, 130908, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x75336000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libEGL.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0000/\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=565406, ...}) = 0
+mmap2(NULL, 125300, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75233000
+mprotect(0x75249000, 32768, PROT_NONE)  = 0
+mmap2(0x75251000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x75251000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libVSC.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\270y\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2134348, ...}) = 0
+mmap2(NULL, 794328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75171000
+mprotect(0x75223000, 32768, PROT_NONE)  = 0
+mmap2(0x7522b000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb2000) = 0x7522b000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0@\27\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=26516, ...}) = 0
+mmap2(NULL, 90640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7515a000
+mprotect(0x75160000, 61440, PROT_NONE)  = 0
+mmap2(0x7516f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7516f000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libfreetype.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\300]\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=513972, ...}) = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f10000
+mmap2(NULL, 578188, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x750cc000
+mprotect(0x75145000, 65536, PROT_NONE)  = 0
+mmap2(0x75155000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x79000) = 0x75155000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libicudata.so.59", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0@\4\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=26297624, ...}) = 0
+mmap2(NULL, 26361900, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x737a7000
+mprotect(0x750bb000, 61440, PROT_NONE)  = 0
+mmap2(0x750ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1913000) = 0x750ca000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\10\16\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=263672, ...}) = 0
+mmap2(NULL, 327900, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73756000
+mprotect(0x73795000, 65536, PROT_NONE)  = 0
+mmap2(0x737a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3f000) = 0x737a5000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\244\10\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9568, ...}) = 0
+mmap2(NULL, 73852, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73743000
+mprotect(0x73745000, 61440, PROT_NONE)  = 0
+mmap2(0x73754000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x73754000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340\17\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=17752, ...}) = 0
+mmap2(NULL, 82088, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7372e000
+mprotect(0x73732000, 61440, PROT_NONE)  = 0
+mmap2(0x73741000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x73741000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\254)\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=55452, ...}) = 0
+mmap2(NULL, 119952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73710000
+mprotect(0x7371d000, 61440, PROT_NONE)  = 0
+mmap2(0x7372c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7372c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\3406\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1088120, ...}) = 0
+mmap2(NULL, 1153476, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735f6000
+mprotect(0x736fc000, 65536, PROT_NONE)  = 0
+mmap2(0x7370c000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x106000) = 0x7370c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\320\240\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=112432, ...}) = 0
+mmap2(NULL, 176720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735ca000
+mprotect(0x735e5000, 61440, PROT_NONE)  = 0
+mmap2(0x735f4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x735f4000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\364\t\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9608, ...}) = 0
+mmap2(NULL, 73896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735b7000
+mprotect(0x735b9000, 61440, PROT_NONE)  = 0
+mmap2(0x735c8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x735c8000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0p\17\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=17800, ...}) = 0
+mmap2(NULL, 82072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a2000
+mprotect(0x735a6000, 61440, PROT_NONE)  = 0
+mmap2(0x735b5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x735b5000
+close(3)                                = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a0000
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359e000
+set_tls(0x7359e4d0, 0x7359ebe0, 0x76f1f000, 0x7359e4d0, 0x76f1f000) = 0
+mprotect(0x7607d000, 8192, PROT_READ)   = 0
+mprotect(0x735b5000, 4096, PROT_READ)   = 0
+mprotect(0x735c8000, 4096, PROT_READ)   = 0
+mprotect(0x735f4000, 4096, PROT_READ)   = 0
+mprotect(0x75469000, 4096, PROT_READ)   = 0
+mprotect(0x7370c000, 4096, PROT_READ)   = 0
+mprotect(0x7372c000, 4096, PROT_READ)   = 0
+mprotect(0x73741000, 4096, PROT_READ)   = 0
+mprotect(0x73754000, 4096, PROT_READ)   = 0
+mprotect(0x737a5000, 4096, PROT_READ)   = 0
+mprotect(0x750ca000, 4096, PROT_READ)   = 0
+mprotect(0x757ef000, 4096, PROT_READ)   = 0
+mprotect(0x75155000, 16384, PROT_READ)  = 0
+mprotect(0x759de000, 4096, PROT_READ)   = 0
+mprotect(0x7516f000, 4096, PROT_READ)   = 0
+mprotect(0x75a61000, 4096, PROT_READ)   = 0
+mprotect(0x75456000, 4096, PROT_READ)   = 0
+mprotect(0x760ae000, 4096, PROT_READ)   = 0
+mprotect(0x761ee000, 20480, PROT_READ)  = 0
+mprotect(0x755c5000, 40960, PROT_READ)  = 0
+mprotect(0x757c4000, 28672, PROT_READ)  = 0
+mprotect(0x75885000, 4096, PROT_READ)   = 0
+mprotect(0x758be000, 4096, PROT_READ)   = 0
+mprotect(0x766d4000, 28672, PROT_READ)  = 0
+mprotect(0x75bd2000, 12288, PROT_READ)  = 0
+mprotect(0x75f37000, 32768, PROT_READ)  = 0
+mprotect(0x76b76000, 32768, PROT_READ)  = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359c000
+mprotect(0x76ed5000, 65536, PROT_READ)  = 0
+mprotect(0x21000, 4096, PROT_READ)      = 0
+mprotect(0x76f1e000, 4096, PROT_READ)   = 0
+munmap(0x76f14000, 31476)               = 0
+set_tid_address(0x7359e078)             = 1422
+set_robust_list(0x7359e080, 12)         = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x759bd25c, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x75f72c30}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x759bd318, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x75f72c30}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+ugetrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(NULL)                               = 0x1049000
+brk(0x106a000)                          = 0x106a000
+gettimeofday({tv_sec=1555333213, tv_usec=645956}, NULL) = 0
+futex(0x761f52a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x761f52ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+write(1, "Compiled with Qt Version 5.9.6\n", 31) = 31
+geteuid32()                             = 0
+getuid32()                              = 0
+futex(0x766df1c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+read(3, "\310\24T&", 4)                 = 4
+close(3)                                = 0
+getpid()                                = 1422
+stat64("/proc/1422/exe", {st_mode=S_IFREG|0755, st_size=303904, ...}) = 0
+lstat64("/proc/1422/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat64("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat64("/proc/1422", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat64("/proc/1422/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/1422/exe", "/root/test-app", 4095) = 14
+lstat64("/root", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat64("/root/test-app", {st_mode=S_IFREG|0755, st_size=303904, ...}) = 0
+stat64("/root/qt.conf", 0x7ea50878)     = -1 ENOENT (No such file or directory)
+stat64("/root/qt.conf", 0x7ea50680)     = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/root", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat64("/root", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat64("/usr/lib/qt5/plugins/platforms/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/qt5/plugins/platforms", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 6 entries */, 32768)   = 192
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms/libqminimal.so", {st_mode=S_IFREG|0755, st_size=105068, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforms/libqminimal.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=105068, ...}) = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=105068, ...}) = 0
+mmap2(NULL, 105068, PROT_READ, MAP_SHARED, 3, 0) = 0x73582000
+close(3)                                = 0
+munmap(0x73582000, 105068)              = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms/libqoffscreen.so", {st_mode=S_IFREG|0755, st_size=117540, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforms/libqoffscreen.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=117540, ...}) = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=117540, ...}) = 0
+mmap2(NULL, 117540, PROT_READ, MAP_SHARED, 3, 0) = 0x7357f000
+close(3)                                = 0
+munmap(0x7357f000, 117540)              = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms/libqvnc.so", {st_mode=S_IFREG|0755, st_size=171296, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforms/libqvnc.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=171296, ...}) = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=171296, ...}) = 0
+mmap2(NULL, 171296, PROT_READ, MAP_SHARED, 3, 0) = 0x73572000
+close(3)                                = 0
+munmap(0x73572000, 171296)              = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforms/libqxcb.so", {st_mode=S_IFREG|0755, st_size=9660, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforms/libqxcb.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9660, ...}) = 0
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9660, ...}) = 0
+mmap2(NULL, 9660, PROT_READ, MAP_SHARED, 3, 0) = 0x76f19000
+close(3)                                = 0
+munmap(0x76f19000, 9660)                = 0
+stat64("/root/platforms/.", 0x7ea50778) = -1 ENOENT (No such file or directory)
+futex(0x7546a0b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforms/libqxcb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\20\r\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9660, ...}) = 0
+mmap2(NULL, 73848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73589000
+mprotect(0x7358b000, 61440, PROT_NONE)  = 0
+mmap2(0x7359a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7359a000
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 3, 0) = 0x76f14000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5XcbQpa.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0H%\2\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=696812, ...}) = 0
+mmap2(NULL, 761672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x734cf000
+mprotect(0x73575000, 65536, PROT_NONE)  = 0
+mmap2(0x73585000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa6000) = 0x73585000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libQt5DBus.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\360\36\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=505264, ...}) = 0
+mmap2(NULL, 570020, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73443000
+mprotect(0x734bd000, 61440, PROT_NONE)  = 0
+mmap2(0x734cc000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x79000) = 0x734cc000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libfontconfig.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340J\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=223424, ...}) = 0
+mmap2(NULL, 288044, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x733fc000
+mprotect(0x7342e000, 61440, PROT_NONE)  = 0
+mmap2(0x7343d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7343d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0t\4\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=5356, ...}) = 0
+mmap2(NULL, 69676, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x733ea000
+mprotect(0x733eb000, 61440, PROT_NONE)  = 0
+mmap2(0x733fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x733fa000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXi.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0P\32\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=50688, ...}) = 0
+mmap2(NULL, 115012, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x733cd000
+mprotect(0x733d9000, 61440, PROT_NONE)  = 0
+mmap2(0x733e8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x733e8000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-xkb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\250\216\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=83552, ...}) = 0
+mmap2(NULL, 147772, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x733a8000
+mprotect(0x733bc000, 61440, PROT_NONE)  = 0
+mmap2(0x733cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x733cb000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-render-util.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0d\20\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9668, ...}) = 0
+mmap2(NULL, 73964, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73395000
+mprotect(0x73397000, 61440, PROT_NONE)  = 0
+mmap2(0x733a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x733a6000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-render.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\204E\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=38356, ...}) = 0
+mmap2(NULL, 102572, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7337b000
+mprotect(0x73384000, 61440, PROT_NONE)  = 0
+mmap2(0x73393000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x73393000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0,\34\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=17808, ...}) = 0
+mmap2(NULL, 82024, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73366000
+mprotect(0x7336a000, 61440, PROT_NONE)  = 0
+mmap2(0x73379000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x73379000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-xfixes.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0X$\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=21864, ...}) = 0
+mmap2(NULL, 86080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73350000
+mprotect(0x73355000, 61440, PROT_NONE)  = 0
+mmap2(0x73364000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x73364000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-xinerama.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 \v\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9576, ...}) = 0
+mmap2(NULL, 73788, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7333d000
+mprotect(0x7333f000, 61440, PROT_NONE)  = 0
+mmap2(0x7334e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7334e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-randr.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\334Y\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=42460, ...}) = 0
+mmap2(NULL, 106676, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73322000
+mprotect(0x7332c000, 61440, PROT_NONE)  = 0
+mmap2(0x7333b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7333b000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-image.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\300\f\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=13732, ...}) = 0
+mmap2(NULL, 78000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7330e000
+mprotect(0x73311000, 61440, PROT_NONE)  = 0
+mmap2(0x73320000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x73320000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-shm.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0|\n\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9576, ...}) = 0
+mmap2(NULL, 73796, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x732fb000
+mprotect(0x732fd000, 61440, PROT_NONE)  = 0
+mmap2(0x7330c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7330c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-keysyms.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\324\10\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9492, ...}) = 0
+mmap2(NULL, 73808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x732e8000
+mprotect(0x732ea000, 61440, PROT_NONE)  = 0
+mmap2(0x732f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x732f9000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-icccm.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\30\34\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=13652, ...}) = 0
+mmap2(NULL, 77968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x732d4000
+mprotect(0x732d7000, 61440, PROT_NONE)  = 0
+mmap2(0x732e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x732e6000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-shape.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 \r\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=9572, ...}) = 0
+mmap2(NULL, 73788, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x732c1000
+mprotect(0x732c3000, 61440, PROT_NONE)  = 0
+mmap2(0x732d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x732d2000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxkbcommon-x11.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0$\34\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=26364, ...}) = 0
+mmap2(NULL, 90520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x732aa000
+mprotect(0x732b0000, 61440, PROT_NONE)  = 0
+mmap2(0x732bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x732bf000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxkbcommon.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 )\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=227052, ...}) = 0
+mmap2(NULL, 291212, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73262000
+mprotect(0x73298000, 65536, PROT_NONE)  = 0
+mmap2(0x732a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36000) = 0x732a8000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0(\250\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=257352, ...}) = 0
+mmap2(NULL, 321744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x73213000
+mprotect(0x73251000, 61440, PROT_NONE)  = 0
+mmap2(0x73260000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3d000) = 0x73260000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\370$\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=177748, ...}) = 0
+mmap2(NULL, 241864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x731d7000
+mprotect(0x73201000, 61440, PROT_NONE)  = 0
+mmap2(0x73210000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x73210000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libxcb-util.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0H\25\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=13760, ...}) = 0
+mmap2(NULL, 77976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x731c3000
+mprotect(0x731c6000, 61440, PROT_NONE)  = 0
+mmap2(0x731d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x731d5000
+close(3)                                = 0
+mprotect(0x731d5000, 4096, PROT_READ)   = 0
+mprotect(0x73210000, 8192, PROT_READ)   = 0
+mprotect(0x73260000, 4096, PROT_READ)   = 0
+mprotect(0x732a8000, 4096, PROT_READ)   = 0
+mprotect(0x733cb000, 4096, PROT_READ)   = 0
+mprotect(0x732bf000, 4096, PROT_READ)   = 0
+mprotect(0x732d2000, 4096, PROT_READ)   = 0
+mprotect(0x732e6000, 4096, PROT_READ)   = 0
+mprotect(0x732f9000, 4096, PROT_READ)   = 0
+mprotect(0x7330c000, 4096, PROT_READ)   = 0
+mprotect(0x73320000, 4096, PROT_READ)   = 0
+mprotect(0x7333b000, 4096, PROT_READ)   = 0
+mprotect(0x7334e000, 4096, PROT_READ)   = 0
+mprotect(0x73364000, 4096, PROT_READ)   = 0
+mprotect(0x73379000, 4096, PROT_READ)   = 0
+mprotect(0x73393000, 4096, PROT_READ)   = 0
+mprotect(0x733a6000, 4096, PROT_READ)   = 0
+mprotect(0x733e8000, 4096, PROT_READ)   = 0
+mprotect(0x733fa000, 4096, PROT_READ)   = 0
+mprotect(0x7343d000, 4096, PROT_READ)   = 0
+mprotect(0x734cc000, 4096, PROT_READ)   = 0
+mprotect(0x73585000, 8192, PROT_READ)   = 0
+mprotect(0x7359a000, 4096, PROT_READ)   = 0
+geteuid32()                             = 0
+stat64("/run/user/0/", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+stat64("/run/user/0/", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+access("/run/user/0/", R_OK)            = 0
+access("/run/user/0/", W_OK)            = 0
+access("/run/user/0/", X_OK)            = 0
+munmap(0x76f14000, 31476)               = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+getpeername(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, [124->20]) = 0
+uname({sysname="Linux", nodename="GFMM01791329", ...}) = 0
+access("/root/.Xauthority", R_OK)       = -1 ENOENT (No such file or directory)
+fcntl64(3, F_GETFL)                     = 0x2 (flags O_RDWR)
+fcntl64(3, F_SETFL, O_RDWR|O_NONBLOCK)  = 0
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="l\0\v\0\0\0\0\0\0\0\0\0", iov_len=12}, {iov_base="", iov_len=0}], 2) = 12
+recv(3, "\1\0\v\0\0\0\263\1", 8, 0)     = 8
+recv(3, "\30\240\265\0\0\0\240\0\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 1740, 0) = 1740
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\5\0\f\0\0\0BIG-REQUESTS", iov_len=20}], 1) = 20
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\1\0\0\0\0\0\1\205\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\205\0\1\0", iov_len=4}], 1) = 4
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="7\0\5\0\0\0\240\0\344\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0\344\0\0\0\27\0\0\0"..., iov_len=44}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 44
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\5\0\t\0\240\0", iov_len=8}, {iov_base="XKEYBOARD", iov_len=9}, {iov_base="\0\0\0", iov_len=3}], 3) = 20
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\5\0\0\0\0\0\1\207U\211\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\0\2\0\1\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, {msg_namelen=0}, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+mmap2(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x729c2000
+mprotect(0x729c3000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x731c1f78, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x731c24a8, tls=0x731c2900, child_tidptr=0x731c24a8) = 1423
+futex(0x105c4d8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\4\0\7\0\0\0MIT-SHM\0b\0\4\0\6\0\0\0XFIXES\0\0"..., iov_len=3996}], 1) = 3996
+futex(0x105cc58, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\7\0\0\0\0\0\1\202A\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 4096
+futex(0x105cc5c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\0\3\0\1\0\0\0\5\0\0\0", iov_len=12}], 1) = 12
+futex(0x7ea50800, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\4\3\0\344\0\0\0\17\0\0\0\211\0\3\0\5\0\0\0\0\0\0\0", iov_len=24}], 1) = 24
+futex(0x7ea50808, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\20\0\6\0\r\0\0\0_NET_WM_CM_S0\0\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\27\0\2\0y\1\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\344\0\0\0\"\1\0\0\6\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\31\2\0\344\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50780, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\37\2\0\344\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\t\3\0?\0\0\0\364\37\0\0", iov_len=12}], 1) = 12
+futex(0x7ea50780, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\4\3\0\344\0\0\0\1\0\0\0\213\24\3\0>\0\0\0\341#\0\0", iov_len=24}], 1) = 24
+futex(0x7ea50708, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\213\31\2\0\344\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea506e0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\344\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0 \0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\0\2\0\344\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2\0\4\0\344\0\0\0\0\10\0\0000\0B\0\24\0\6\0\344\0\0\0\31\1\0\0!\0\0\0"..., iov_len=40}], 1) = 40
+futex(0x7ea50708, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\200\0\33\1\0\0\34\1\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat64(6, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 6, 0) = 0x76f14000
+close(6)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXcursor.so.1", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\330\36\0\0004\0\0\0"..., 512) = 512
+fstat64(6, {st_mode=S_IFREG|0755, st_size=34464, ...}) = 0
+mmap2(NULL, 98752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x729a9000
+mprotect(0x729b1000, 61440, PROT_NONE)  = 0
+mmap2(0x729c0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x7000) = 0x729c0000
+close(6)                                = 0
+openat(AT_FDCWD, "/usr/lib/libXrender.so.1", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\370\24\0\0004\0\0\0"..., 512) = 512
+fstat64(6, {st_mode=S_IFREG|0755, st_size=34424, ...}) = 0
+mmap2(NULL, 98716, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x72990000
+mprotect(0x72997000, 65536, PROT_NONE)  = 0
+mmap2(0x729a7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x7000) = 0x729a7000
+close(6)                                = 0
+mprotect(0x729a7000, 4096, PROT_READ)   = 0
+mprotect(0x729c0000, 4096, PROT_READ)   = 0
+munmap(0x76f14000, 31476)               = 0
+openat(AT_FDCWD, "/usr/share/qt5/qtlogging.ini", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/root/.config/QtProject/qtlogging.ini", 0x7ea50668) = -1 ENOENT (No such file or directory)
+stat64("/etc/xdg/QtProject/qtlogging.ini", 0x7ea50668) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="-\0\5\0\2\0\240\0\6\0\0\0cursor\0\0\1\0\10\0\3\0\240\0\344\0\0\0"..., iov_len=80}], 1) = 80
+futex(0x7ea50808, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\6\0\17\0\0\0", iov_len=8}, {iov_base="XInputExtension", iov_len=15}, {iov_base="\0", iov_len=1}], 3) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\6\0\17\0\0\0", iov_len=8}, {iov_base="XInputExtension", iov_len=15}, {iov_base="\0", iov_len=1}], 3) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\203\1\6\0\17\0\0\0", iov_len=8}, {iov_base="XInputExtension", iov_len=15}, {iov_base="\0", iov_len=1}], 3) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\1\6\0\17\0\0\0", iov_len=8}, {iov_base="XInputExtension", iov_len=15}, {iov_base="\0", iov_len=1}], 3) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\1\10\0\27\0\0\0", iov_len=8}, {iov_base="Generic Event Extension", iov_len=23}, {iov_base="\0", iov_len=1}], 3) = 32
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\200\0\2\0\1\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\203\1\6\0\17\0\0\0", iov_len=8}, {iov_base="XInputExtension", iov_len=15}, {iov_base="\0", iov_len=1}], 3) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\203/\2\0\2\0\2\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\203.\5\0\344\0\0\0\1\0\0\0\0\0\1\0\2\10\0\0\2030\2\0\0\0\0\0", iov_len=28}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 28
+futex(0x7ea50620, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2030\2\0\4\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x7ea505b8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2030\2\0\6\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x7ea505b8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\201\0\1\0", iov_len=4}], 1) = 4
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\0\2\0\1\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\1\4\0\0\1\7\0\0\0\7\0\377\0\377\0+\0\1\0", iov_len=20}], 1) = 20
+futex(0x7ea507e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\344\0\0\0\25\1\0\0\4\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x7ea507e0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\21\3\0\0\1\0\0\0\10\0\0", iov_len=12}], 1) = 12
+futex(0x7ea50778, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0~\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50738, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\177\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50738, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\200\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50738, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\201\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\202\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50738, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\203\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\204\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\205\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\206\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\207\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\210\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\211\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\212\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\10\7\0\0\1@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=28}], 1) = 28
+futex(0x7ea50780, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\30\4\0\0\1\0\0\0\0\0\0\0\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea507e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+brk(0x108b000)                          = 0x108b000
+stat64("/usr/share/X11/xkb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/share/X11/xkb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+geteuid32()                             = 0
+getegid32()                             = 0
+getuid32()                              = 0
+getgid32()                              = 0
+access("/usr/share/X11/xkb", R_OK|X_OK) = 0
+stat64("/root/.xkb", 0x7ea50710)        = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\10\7\0\3\0\337\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=28}], 1) = 28
+futex(0x7ea506e8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\r\3\0\3\0\0\0\377\377\377\377", iov_len=12}], 1) = 12
+futex(0x7ea506e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\n\3\0\3\0\0\1\0\0\0\0", iov_len=12}], 1) = 12
+futex(0x7ea506e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\21\3\0\3\0\0\0\365\37\0\0", iov_len=12}], 1) = 12
+futex(0x7ea506e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\213\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea506d8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\301\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\214\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea506d8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\214\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea506d8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\215\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\216\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\217\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\222\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\223\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\224\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\225\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\226\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\227\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\230\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\211\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\231\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\232\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\233\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\204\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\234\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\203\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\235\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\177\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\236\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\201\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\237\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\202\0\0\0", iov_len=16}], 1) = 16
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\240\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=40}], 1) = 40
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\244\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\245\0\0\0\21\0\2\0\246\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\253\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\245\0\0\0", iov_len=24}], 1) = 24
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\254\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\261\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\262\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\263\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\264\0\0\0", iov_len=8}], 1) = 8
+futex(0x7ea50498, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=64}], 1) = 64
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\265\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\266\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\267\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\270\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\225\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\271\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0\21\0\2\0\243\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\272\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\273\0\0\0\21\0\2\0\274\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\275\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\221\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\242\0\0\0"..., iov_len=40}], 1) = 40
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\277\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\220\0\0\0\21\0\2\0\225\0\0\0\21\0\2\0\241\0\0\0\21\0\2\0\300\0\0\0", iov_len=32}], 1) = 32
+futex(0x7ea504b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\303\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\304\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\305\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\306\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\307\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\310\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\311\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\312\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0[\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\313\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\314\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\315\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\316\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\317\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0~\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\177\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\200\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\201\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\202\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\203\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\204\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\205\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\206\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\207\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\210\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\211\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\212\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\21\0\2\0\302\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\6\2\0\3\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\207\4\2\0\3\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\211\2\4\0\3\0\240\0\1\0\0\0\7\0\0\0\211\2\4\0\3\0\240\0S\1\0\0\7\0\0\0"..., iov_len=40}], 1) = 40
+futex(0x7ea507e8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+stat64("/usr/lib/qt5/plugins/xcbglintegrations/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/qt5/plugins/xcbglintegrations", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 6
+fstat64(6, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(6, /* 3 entries */, 32768)   = 96
+getdents64(6, /* 0 entries */, 32768)   = 0
+close(6)                                = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/xcbglintegrations", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so", {st_mode=S_IFREG|0755, st_size=55364, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 6
+fcntl64(6, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(6, {st_mode=S_IFREG|0755, st_size=55364, ...}) = 0
+fstat64(6, {st_mode=S_IFREG|0755, st_size=55364, ...}) = 0
+mmap2(NULL, 55364, PROT_READ, MAP_SHARED, 6, 0) = 0x72982000
+close(6)                                = 0
+munmap(0x72982000, 55364)               = 0
+stat64("/root/xcbglintegrations/.", 0x7ea50638) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0pN\0\0004\0\0\0"..., 512) = 512
+fstat64(6, {st_mode=S_IFREG|0755, st_size=55364, ...}) = 0
+mmap2(NULL, 119604, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x72972000
+mprotect(0x7297e000, 65536, PROT_NONE)  = 0
+mmap2(0x7298e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xc000) = 0x7298e000
+close(6)                                = 0
+mprotect(0x7298e000, 4096, PROT_READ)   = 0
+futex(0x75355994, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/dev/galcore", O_RDWR) = 6
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50500) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50500) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50518) = 0
+mmap2(NULL, 134217728, PROT_READ|PROT_WRITE, MAP_SHARED, 6, 0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50520) = 0
+getpid()                                = 1422
+gettid()                                = 1422
+gettid()                                = 1422
+getpid()                                = 1422
+openat(AT_FDCWD, "/proc/1422/cmdline", O_RDONLY) = 7
+fstat64(7, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(7, "./test-app\0", 1024)           = 11
+read(7, "", 1024)                       = 0
+close(7)                                = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50458) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50458) = 0
+brk(0x10b8000)                          = 0x10b8000
+brk(0x10de000)                          = 0x10de000
+brk(0x1105000)                          = 0x1105000
+mmap2(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x72951000
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50148) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50150) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50148) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50150) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a8) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50300) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50248) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50208) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50258) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50230) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50458) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50458) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50458) = 0
+brk(0x112d000)                          = 0x112d000
+brk(0x1153000)                          = 0x1153000
+mmap2(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x6a7df000
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50148) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50150) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50148) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50150) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502a8) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50300) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea504c0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea504c0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502e8) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502e8) = 0
+getpid()                                = 1422
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50308) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50308) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 7
+fstat64(7, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 7, 0) = 0x76f14000
+close(7)                                = 0
+openat(AT_FDCWD, "/usr/lib/libOpenVG.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0h<\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0644, st_size=1317699, ...}) = 0
+mmap2(NULL, 292852, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x6a757000
+mprotect(0x6a796000, 32768, PROT_NONE)  = 0
+mmap2(0x6a79e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x3f000) = 0x6a79e000
+close(7)                                = 0
+munmap(0x76f14000, 31476)               = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, {sa_handler=0x75318f14, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x75f72c30}, NULL, 8) = 0
+getpid()                                = 1422
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50548) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50548) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50548) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50550) = 0
+mmap2(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x69f56000
+mprotect(0x69f57000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x6a755f78, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x6a7564a8, tls=0x6a756900, child_tidptr=0x6a7564a8) = 1424
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b0\5\0\v\0\0\0", iov_len=8}, {iov_base="XFree86-DRI", iov_len=11}, {iov_base="\0", iov_len=1}], 3) = 20
+futex(0x7ea50500, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\226\2\2\0\0\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x7ea505b0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+geteuid32()                             = 0
+stat64("/dev/dri", {st_mode=S_IFDIR|0755, st_size=60, ...}) = 0
+stat64("/dev/dri/card0", {st_mode=S_IFCHR|0666, st_rdev=makedev(226, 0), ...}) = 0
+openat(AT_FDCWD, "/dev/dri/card0", O_RDWR) = 7
+ioctl(7, DRM_IOCTL_SET_VERSION, 0x7ea505e8) = -1 EACCES (Permission denied)
+ioctl(7, DRM_IOCTL_GET_UNIQUE, 0x7ea505f0) = 0
+ioctl(7, DRM_IOCTL_GET_UNIQUE, 0x7ea505f0) = 0
+ioctl(7, DRM_IOCTL_GET_MAGIC, 0x7ea5067c) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\226\v\3\0\0\0\0\0\17\0\0\0", iov_len=12}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 12
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\226\n\2\0\0\0\0\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap2(NULL, 16723968, PROT_READ|PROT_WRITE, MAP_SHARED, 7, 0x3c100000) = 0x68e0d000
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_SHARED, 7, 0xc0f48000) = 0x76f1a000
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="+\0\1\0", iov_len=4}], 1) = 4
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+stat64("/usr/lib/qt5/plugins/platformthemes/.", 0x7ea50770) = -1 ENOENT (No such file or directory)
+stat64("/root/platformthemes/.", 0x7ea50770) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/qt5/plugins/platforminputcontexts/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/qt5/plugins/platforminputcontexts", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 8
+fstat64(8, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0x117a000)                          = 0x117a000
+getdents64(8, /* 5 entries */, 32768)   = 224
+getdents64(8, /* 0 entries */, 32768)   = 0
+close(8)                                = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so", {st_mode=S_IFREG|0755, st_size=38704, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 8
+fcntl64(8, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=38704, ...}) = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=38704, ...}) = 0
+mmap2(NULL, 38704, PROT_READ, MAP_SHARED, 8, 0) = 0x72907000
+close(8)                                = 0
+munmap(0x72907000, 38704)               = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so", {st_mode=S_IFREG|0755, st_size=104904, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 8
+fcntl64(8, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=104904, ...}) = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=104904, ...}) = 0
+mmap2(NULL, 104904, PROT_READ, MAP_SHARED, 8, 0) = 0x69f3c000
+close(8)                                = 0
+munmap(0x69f3c000, 104904)              = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so", {st_mode=S_IFREG|0755, st_size=2647144, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 8
+fcntl64(8, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=2647144, ...}) = 0
+fstat64(8, {st_mode=S_IFREG|0755, st_size=2647144, ...}) = 0
+mmap2(NULL, 2647144, PROT_READ, MAP_SHARED, 8, 0) = 0x68b86000
+close(8)                                = 0
+munmap(0x68b86000, 2647144)             = 0
+stat64("/root/platforminputcontexts/.", 0x7ea50808) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so", O_RDONLY|O_CLOEXEC) = 8
+read(8, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\350&\0\0004\0\0\0"..., 512) = 512
+fstat64(8, {st_mode=S_IFREG|0755, st_size=38704, ...}) = 0
+mmap2(NULL, 102864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8, 0) = 0x69f3c000
+mprotect(0x69f45000, 61440, PROT_NONE)  = 0
+mmap2(0x69f54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8, 0x8000) = 0x69f54000
+close(8)                                = 0
+mprotect(0x69f54000, 4096, PROT_READ)   = 0
+clock_gettime(CLOCK_MONOTONIC, {tv_sec=471, tv_nsec=769670388}) = 0
+rt_sigaction(SIGINT, {sa_handler=0x767b9eb8, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x75f72c20}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x767b9eb8, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x75f72c20}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x767b9eb8, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x75f72c20}, NULL, 8) = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+lstat64("/usr/lib/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/qt5/qml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/root", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+mmap2(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x6860c000
+mprotect(0x6860d000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x68e0bf78, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x68e0c4a8, tls=0x68e0c900, child_tidptr=0x68e0c4a8) = 1425
+futex(0x115a2b8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154600, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap2(NULL, 4194304, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x68100000
+madvise(0x68100000, 4194304, MADV_DONTNEED) = 0
+mprotect(0x68100000, 65536, PROT_READ|PROT_WRITE) = 0
+madvise(0x68100000, 65536, MADV_WILLNEED) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f19000
+munmap(0x76f19000, 4096)                = 0
+mmap2(NULL, 8388608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x67900000
+mmap2(0x67900000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x67900000
+mmap2(0x680ff000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x680ff000
+mprotect(0x68110000, 65536, PROT_READ|PROT_WRITE) = 0
+madvise(0x68110000, 65536, MADV_WILLNEED) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f19000
+mprotect(0x76f19000, 150, PROT_READ|PROT_WRITE) = 0
+mprotect(0x76f19000, 102, PROT_READ|PROT_EXEC) = 0
+cacheflush(0x76f19000, 0x76f19066, 0, 0xfffff000, 0x76f1a000) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f18000
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=2335, ...}) = 0
+fstat64(9, {st_mode=S_IFREG|0644, st_size=2335, ...}) = 0
+read(9, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0\0\t\0\0\0\0"..., 4096) = 2335
+_llseek(9, -28, [2307], SEEK_CUR)       = 0
+read(9, "\nCET-1CEST,M3.5.0,M10.5.0/3\n", 4096) = 28
+close(9)                                = 0
+gettimeofday({tv_sec=1555333213, tv_usec=976675}, NULL) = 0
+stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2335, ...}) = 0
+stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2335, ...}) = 0
+brk(0x119b000)                          = 0x119b000
+getcwd("/root", 4096)                   = 6
+getcwd("/root", 4096)                   = 6
+write(8, "\1\0\0\0\0\0\0\0", 8)         = 8
+futex(0x1154458, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154604, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x1154600, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154458, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154604, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x1154600, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154458, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1154604, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x11545c0, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f16000
+gettimeofday({tv_sec=1555333214, tv_usec=45059}, NULL) = 0
+access("/etc/fonts/fonts.conf", R_OK)   = 0
+stat64("/etc/fonts/fonts.conf", {st_mode=S_IFREG|0644, st_size=2306, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/fonts.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 2306
+getrandom("\xda\x4d\x66\xde", 4, GRND_NONBLOCK) = 4
+access("/etc/fonts/conf.d", R_OK)       = 0
+stat64("/etc/fonts/conf.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/fonts/conf.d", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 10
+fstat64(10, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(10, /* 21 entries */, 32768) = 848
+getdents64(10, /* 0 entries */, 32768)  = 0
+access("/etc/fonts/conf.d/10-hinting-slight.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/10-hinting-slight.conf", {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/10-hinting-slight.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 463
+getrandom("\xc2\x45\x2f\xb0", 4, GRND_NONBLOCK) = 4
+brk(0x11bd000)                          = 0x11bd000
+read(11, "", 8192)                      = 0
+brk(0x11b9000)                          = 0x11b9000
+close(11)                               = 0
+access("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", {st_mode=S_IFREG|0644, st_size=2010, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 2010
+getrandom("\x9c\xed\x69\x62", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-vera.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/20-unhint-small-vera.conf", {st_mode=S_IFREG|0644, st_size=1259, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/20-unhint-small-vera.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1259
+getrandom("\x08\x59\x5d\xc3", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/30-dejavu-aliases.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/30-dejavu-aliases.conf", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/30-dejavu-aliases.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 388
+getrandom("\xeb\xc3\xa1\x0a", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/30-liberation-aliases.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/30-liberation-aliases.conf", {st_mode=S_IFREG|0644, st_size=419, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/30-liberation-aliases.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 419
+getrandom("\xcb\xec\xd1\x51", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/30-metric-aliases.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/30-metric-aliases.conf", {st_mode=S_IFREG|0644, st_size=13510, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/30-metric-aliases.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 8192
+getrandom("\xcb\xfb\x6c\x74", 4, GRND_NONBLOCK) = 4
+read(11, "<family>Cousine</family>\n\t  <def"..., 8192) = 5318
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/30-urw-aliases.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/30-urw-aliases.conf", {st_mode=S_IFREG|0644, st_size=889, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/30-urw-aliases.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 889
+getrandom("\x7e\x74\x66\xa7", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/40-nonlatin.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/40-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=5182, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/40-nonlatin.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5182
+getrandom("\x3a\x25\x67\xf8", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/45-latin.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/45-latin.conf", {st_mode=S_IFREG|0644, st_size=6362, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/45-latin.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 6362
+getrandom("\xa4\xca\x4d\xc9", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/49-sansserif.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/49-sansserif.conf", {st_mode=S_IFREG|0644, st_size=545, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/49-sansserif.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 545
+getrandom("\x9d\xe1\x91\x9f", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/50-user.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/50-user.conf", {st_mode=S_IFREG|0644, st_size=673, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/50-user.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 673
+getrandom("\x5e\x9f\x1d\xd3", 4, GRND_NONBLOCK) = 4
+stat64("/root/.config/fontconfig/conf.d", 0x7ea4da08) = -1 ENOENT (No such file or directory)
+stat64("/root/.config/fontconfig/conf.d", 0x7ea4da08) = -1 ENOENT (No such file or directory)
+access("/root/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/root/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+stat64("/root/.config/fontconfig/fonts.conf", 0x7ea4da08) = -1 ENOENT (No such file or directory)
+stat64("/root/.config/fontconfig/fonts.conf", 0x7ea4da08) = -1 ENOENT (No such file or directory)
+access("/root/.config/fontconfig/fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/root/.config/fontconfig/fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/root/.fonts.conf.d", R_OK)     = -1 ENOENT (No such file or directory)
+access("/root/.fonts.conf.d", R_OK)     = -1 ENOENT (No such file or directory)
+access("/root/.fonts.conf", R_OK)       = -1 ENOENT (No such file or directory)
+access("/root/.fonts.conf", R_OK)       = -1 ENOENT (No such file or directory)
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/51-local.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/51-local.conf", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/51-local.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 189
+getrandom("\xa5\xe5\x1b\x0f", 4, GRND_NONBLOCK) = 4
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/60-latin.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/60-latin.conf", {st_mode=S_IFREG|0644, st_size=1833, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/60-latin.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1833
+getrandom("\x49\xb0\x70\x9c", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/65-fonts-persian.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/65-fonts-persian.conf", {st_mode=S_IFREG|0644, st_size=10118, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/65-fonts-persian.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 8192
+getrandom("\x23\xe4\x04\x59", 4, GRND_NONBLOCK) = 4
+read(11, "<family>Koodak</family>\n\t\t\t<fami"..., 8192) = 1926
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/65-nonlatin.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/65-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=7959, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/65-nonlatin.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 7959
+getrandom("\x84\x01\xdc\x35", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/69-unifont.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/69-unifont.conf", {st_mode=S_IFREG|0644, st_size=672, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/69-unifont.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 672
+getrandom("\xe2\xcf\x81\x46", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/80-delicious.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/80-delicious.conf", {st_mode=S_IFREG|0644, st_size=422, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/80-delicious.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 422
+getrandom("\xf1\x2f\x36\x40", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+access("/etc/fonts/conf.d/90-synthetic.conf", R_OK) = 0
+stat64("/etc/fonts/conf.d/90-synthetic.conf", {st_mode=S_IFREG|0644, st_size=1691, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d/90-synthetic.conf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1691
+getrandom("\xfe\xbf\x34\x9c", 4, GRND_NONBLOCK) = 4
+read(11, "", 8192)                      = 0
+close(11)                               = 0
+close(10)                               = 0
+access("/etc/fonts/conf.d", R_OK)       = 0
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+stat64("/usr/share/fonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/share/fonts", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstatfs64(9, 88, 0x7ea4fe28)            = 0
+close(9)                                = 0
+openat(AT_FDCWD, "/var/cache/fontconfig//3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-7", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=144, ...}) = 0
+gettimeofday({tv_sec=1555333214, tv_usec=85928}, NULL) = 0
+fstatfs64(9, 88, 0x7ea4fe80)            = 0
+read(9, "\4\374\2\374\7\0\0\0\220\0\0\0(\0\0\0@\0\0\0\2\0\0\0\200\0\0\0S\354\261\\"..., 144) = 144
+close(9)                                = 0
+stat64("/root/.local/share/fonts", 0x7ea50018) = -1 ENOENT (No such file or directory)
+stat64("/root/.local/share/fonts", 0x7ea50040) = -1 ENOENT (No such file or directory)
+stat64("/root/.fonts", 0x7ea50018)      = -1 ENOENT (No such file or directory)
+stat64("/root/.fonts", 0x7ea50040)      = -1 ENOENT (No such file or directory)
+stat64("/usr/share/fonts/truetype", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/share/fonts/truetype", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstatfs64(9, 88, 0x7ea4fe28)            = 0
+close(9)                                = 0
+openat(AT_FDCWD, "/var/cache/fontconfig//7ef2298fde41cc6eeb7af42e48b7d293-le32d8.cache-7", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=18192, ...}) = 0
+fstatfs64(9, 88, 0x7ea4fe80)            = 0
+mmap2(NULL, 18192, PROT_READ, MAP_SHARED, 9, 0) = 0x7290c000
+fadvise64_64(9, 0, 18192, POSIX_FADV_WILLNEED) = 0
+close(9)                                = 0
+stat64("/usr/share/fonts/ttf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/share/fonts/ttf", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstatfs64(9, 88, 0x7ea4fe28)            = 0
+close(9)                                = 0
+openat(AT_FDCWD, "/var/cache/fontconfig//94322f4d3cdf1bd54794b691285ca062-le32d8.cache-7", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+fstatfs64(9, 88, 0x7ea4fe80)            = 0
+mmap2(NULL, 16384, PROT_READ, MAP_SHARED, 9, 0) = 0x72908000
+fadvise64_64(9, 0, 16384, POSIX_FADV_WILLNEED) = 0
+close(9)                                = 0
+gettimeofday({tv_sec=1555333214, tv_usec=90955}, NULL) = 0
+readlink("/proc/self/exe", "/root/test-app", 4095) = 14
+openat(AT_FDCWD, "/usr/share/fonts/truetype/DejaVuSans-Bold.ttf", O_RDONLY|O_LARGEFILE) = 9
+fcntl64(9, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(9, {st_mode=S_IFREG|0644, st_size=705684, ...}) = 0
+mmap2(NULL, 705684, PROT_READ, MAP_PRIVATE, 9, 0) = 0x67761000
+close(9)                                = 0
+openat(AT_FDCWD, "/usr/share/fonts/truetype/DejaVuSans.ttf", O_RDONLY|O_LARGEFILE) = 9
+fcntl64(9, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(9, {st_mode=S_IFREG|0644, st_size=757076, ...}) = 0
+mmap2(NULL, 757076, PROT_READ, MAP_PRIVATE, 9, 0) = 0x676a8000
+close(9)                                = 0
+getpid()                                = 1422
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="N\0\4\0\4\0\240\0\344\0\0\0!\0\0\0\1\30\17\0\5\0\240\0\344\0\0\0\0\0\0\0"..., iov_len=548}], 1) = 548
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\203.\5\0\5\0\240\0\1\0\0\0\1\0\1\0\360\21\34\0", iov_len=20}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 20
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2\0\5\0\5\0\240\0\0\n\0\0\0\0\0\0\177\240b\0\22\0\7\0\5\0\240\0005\1\0\0"..., iov_len=48}], 1) = 48
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\31\0\v\0\344\0\0\0\0\0\22\0! \0\0\5\0\240\0\22\1\0\0\0\0\0\0?\1\0\0"..., iov_len=156}], 1) = 156
+futex(0x7ea50940, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+openat(AT_FDCWD, "/usr/share/X11/locale/locale.alias", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=81701, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "UTF-8\nbo_IN.utf8\t\t\t\t\tbo_IN.UTF-8"..., 4096) = 4096
+read(9, "\t\t\tde_DE.ISO8859-15\nde_DE.88591\t"..., 4096) = 4096
+read(9, "ES.ISO8859-1\nes.UTF-8\t\t\t\t\tes_ES."..., 4096) = 4096
+read(9, "91\t\t\t\t\tfi_FI.ISO8859-1\nfi_FI.ISO"..., 4096) = 4096
+read(9, "\t\t\t\the_IL.UTF-8\nhi\t\t\t\t\t\thi_IN.IS"..., 4096) = 4096
+read(9, ".ISO8859-13\nlt_LT\t\t\t\t\t\tlt_LT.ISO"..., 4096) = 4096
+read(9, "so88591\t\t\t\t\tpd_DE.ISO8859-1\npd_U"..., 4096) = 4096
+read(9, "s_ZA.ISO8859-1\nss_ZA.iso88591\t\t\t"..., 4096) = 4096
+read(9, "5hkscs\nzh_HK.BIG5-HKSCS\t\t\t\tzh_HK"..., 4096) = 4096
+read(9, "1\naf_ZA.iso88591:\t\t\t\t\taf_ZA.ISO8"..., 4096) = 4096
+read(9, ".ISO8859-1\nca_AD:\t\t\t\t\t\tca_AD.ISO"..., 4096) = 4096
+read(9, "\t\t\t\t\tde_DE.UTF-8\nde_LU:\t\t\t\t\t\tde_"..., 4096) = 4096
+read(9, "SO8859-1\nes_CL.ISO-8859-1:\t\t\t\tes"..., 4096) = 4096
+read(9, "\t\t\t\t\tfi_FI.ISO8859-15\nfi_FI.utf8"..., 4096) = 4096
+read(9, "ciidev:\t\t\t\t\thi_IN.ISCII-DEV\nhi_I"..., 4096) = 4096
+read(9, "1\n\n\n\n\n\n\n\nlt:\t\t\t\t\t\tlt_LT.ISO8859-"..., 4096) = 4096
+read(9, "_IN.UTF-8\npa_IN.utf8:\t\t\t\t\tpa_IN."..., 4096) = 4096
+read(9, "\tsr_RS.UTF-8\nsr@latin:\t\t\t\t\tsr_RS"..., 4096) = 4096
+read(9, ".eucCN\nzh_CN.GB2312:\t\t\t\t\tzh_CN.g"..., 4096) = 3877
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+openat(AT_FDCWD, "/usr/share/X11/locale/locale.dir", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=37040, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "CALE\t\t\tes_NI.ISO8859-1\niso8859-1"..., 4096) = 4096
+read(9, "E\t\t\tph_PH.ISO8859-1\niso8859-2/XL"..., 4096) = 4096
+read(9, "-8\nen_US.UTF-8/XLC_LOCALE\t\t\ten_B"..., 4096) = 4096
+read(9, "_PT.UTF-8\nen_US.UTF-8/XLC_LOCALE"..., 4096) = 4096
+close(9)                                = 0
+access("/usr/share/X11/locale/C/XLC_LOCALE", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/X11/locale/C/XLC_LOCALE", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=693, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 693
+brk(0x11da000)                          = 0x11da000
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+brk(0x11d8000)                          = 0x11d8000
+openat(AT_FDCWD, "/usr/share/X11/locale/locale.alias", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=81701, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "UTF-8\nbo_IN.utf8\t\t\t\t\tbo_IN.UTF-8"..., 4096) = 4096
+read(9, "\t\t\tde_DE.ISO8859-15\nde_DE.88591\t"..., 4096) = 4096
+read(9, "ES.ISO8859-1\nes.UTF-8\t\t\t\t\tes_ES."..., 4096) = 4096
+read(9, "91\t\t\t\t\tfi_FI.ISO8859-1\nfi_FI.ISO"..., 4096) = 4096
+read(9, "\t\t\t\the_IL.UTF-8\nhi\t\t\t\t\t\thi_IN.IS"..., 4096) = 4096
+read(9, ".ISO8859-13\nlt_LT\t\t\t\t\t\tlt_LT.ISO"..., 4096) = 4096
+read(9, "so88591\t\t\t\t\tpd_DE.ISO8859-1\npd_U"..., 4096) = 4096
+read(9, "s_ZA.ISO8859-1\nss_ZA.iso88591\t\t\t"..., 4096) = 4096
+read(9, "5hkscs\nzh_HK.BIG5-HKSCS\t\t\t\tzh_HK"..., 4096) = 4096
+read(9, "1\naf_ZA.iso88591:\t\t\t\t\taf_ZA.ISO8"..., 4096) = 4096
+read(9, ".ISO8859-1\nca_AD:\t\t\t\t\t\tca_AD.ISO"..., 4096) = 4096
+read(9, "\t\t\t\t\tde_DE.UTF-8\nde_LU:\t\t\t\t\t\tde_"..., 4096) = 4096
+read(9, "SO8859-1\nes_CL.ISO-8859-1:\t\t\t\tes"..., 4096) = 4096
+read(9, "\t\t\t\t\tfi_FI.ISO8859-15\nfi_FI.utf8"..., 4096) = 4096
+read(9, "ciidev:\t\t\t\t\thi_IN.ISCII-DEV\nhi_I"..., 4096) = 4096
+read(9, "1\n\n\n\n\n\n\n\nlt:\t\t\t\t\t\tlt_LT.ISO8859-"..., 4096) = 4096
+read(9, "_IN.UTF-8\npa_IN.utf8:\t\t\t\t\tpa_IN."..., 4096) = 4096
+read(9, "\tsr_RS.UTF-8\nsr@latin:\t\t\t\t\tsr_RS"..., 4096) = 4096
+read(9, ".eucCN\nzh_CN.GB2312:\t\t\t\t\tzh_CN.g"..., 4096) = 3877
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+openat(AT_FDCWD, "/usr/share/X11/locale/locale.dir", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=37040, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "CALE\t\t\tes_NI.ISO8859-1\niso8859-1"..., 4096) = 4096
+read(9, "E\t\t\tph_PH.ISO8859-1\niso8859-2/XL"..., 4096) = 4096
+read(9, "-8\nen_US.UTF-8/XLC_LOCALE\t\t\ten_B"..., 4096) = 4096
+read(9, "_PT.UTF-8\nen_US.UTF-8/XLC_LOCALE"..., 4096) = 4096
+close(9)                                = 0
+access("/usr/share/X11/locale/C/XLC_LOCALE", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/X11/locale/C/XLC_LOCALE", O_RDONLY) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=693, ...}) = 0
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 693
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\22\0\17\0\5\0\240\0#\0\0\0#\0\0\0 \0\0\0\t\0\0\0\3\0\0\0\1\0\0\0"..., iov_len=92}], 1) = 92
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\22\0\6\0\5\0\240\0'\0\0\0\37\0\0\0\10\21\34\0\0\0\0\0+\0\1\0", iov_len=28}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 28
+futex(0x105cc58, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\22\0\7\0\5\0\240\0\205\1\0\0\4\0\0\0 \0\0\0\1\0\0\0\5\0\0\0\23\0\3\0"..., iov_len=40}], 1) = 40
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\0\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x105cc5c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="I\2\5\0\344\0\0\0\0\0\0\0\1\0\1\0\377\377\377\377", iov_len=20}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 20
+futex(0x7ea50860, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="I\2\5\0\344\0\0\0\0\0\0\0\1\0\1\0\377\377\377\377", iov_len=20}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 20
+futex(0x7ea508c0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="I\2\5\0\344\0\0\0\0\0\0\0\1\0\1\0\377\377\377\377", iov_len=20}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 20
+futex(0x7ea508f0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50698) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50678) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50658) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50658) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea506a8) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50688) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50680) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50680) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50698) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea506a8) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\226\7\3\0\0\0\0\0\5\0\240\0", iov_len=12}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 12
+futex(0x7ea50990, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\7\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x7ea508b8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="7\7\4\0\1\0\240\0\5\0\240\0\0\0\0\0\3\377\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=32}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 32
+futex(0x7ea50830, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\7\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x7ea507a0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="5\30\4\0\10\0\240\0\5\0\240\0,\1\310\0b\377\4\0\6\0\240\0", iov_len=24}, {iov_base="vivext", iov_len=6}, {iov_base="\0\0", iov_len=2}], 3) = 32
+futex(0x7ea50800, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\231\v\4\0\0\0\0\0\10\0\240\0\1\0\0\0\231\3\3\0\0\0\0\0\10\0\240\0", iov_len=28}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 28
+futex(0x7ea50858, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea507b0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea507a0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50740) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\v\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x7ea50830, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\3\v\2\0\5\0\240\0\16\0\2\0\5\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x7ea507a0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="5\30\4\0\t\0\240\0\5\0\240\0,\1\310\0\231\v\4\0\0\0\0\0\t\0\240\0\1\0\0\0"..., iov_len=44}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 44
+futex(0x7ea50858, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea507b0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea507a0) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0#\0\0\0#\0\0\0\0\0\0\0\t\0\0\0", iov_len=24}], 1) = 24
+futex(0x7ea50ae0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\22\0\17\0\5\0\240\0#\0\0\0#\0\0\0 \0\0\0\t\0\0\0\3\0\0\0\1\0\0\0"..., iov_len=192}], 1) = 192
+futex(0x7ea50aa0, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\22\0\v\0\5\0\240\0$\1\0\0$\1\0\0 \0\0\0\5\0\0\0\3\0\0\0>\0\0\0"..., iov_len=68}], 1) = 68
+futex(0x7ea50ab8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\23\0\3\0\5\0\240\0\22\1\0\0", iov_len=12}], 1) = 12
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\10\0\2\0\5\0\240\0+\0\1\0", iov_len=12}], 1) = 12
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+clock_gettime(CLOCK_MONOTONIC, {tv_sec=471, tv_nsec=962235055}) = 0
+poll([{fd=5, events=POLLIN}], 1, 0)     = 1 ([{fd=5, revents=POLLIN}])
+read(5, "\t\0\0\0\0\0\0\0", 16)         = 8
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLIN|POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0\2\1\0\0\0\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x7ea507f8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ea507fc, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ea507fc, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ea507fc, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN}], 1, -1)    = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\34\0\316\1\344\0\0\0\30\1\0\0\2433\7\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 168
+futex(0x105cc58, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0\22\1\0\0\4\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="(\0\4\0\5\0\240\0\344\0\0\0\0\0\0\0", iov_len=16}], 1) = 16
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2030\2\0\4\0\240\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\2030\2\0\6\0\240\0", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0\22\1\0\0\4\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0\2\1\0\0\0\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\24\0\6\0\5\0\240\0\22\1\0\0\4\0\0\0\0\0\0\0\0\4\0\0", iov_len=24}], 1) = 24
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+clock_gettime(CLOCK_MONOTONIC, {tv_sec=471, tv_nsec=981173055}) = 0
+poll([{fd=5, events=POLLIN}], 1, 0)     = 1 ([{fd=5, revents=POLLIN}])
+read(5, "\30\0\0\0\0\0\0\0", 16)        = 8
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 9, 0) = 0x72900000
+close(9)                                = 0
+openat(AT_FDCWD, "/usr/lib/libGLESv2.so", O_RDONLY|O_CLOEXEC) = 9
+read(9, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0X\273\0\0004\0\0\0"..., 512) = 512
+fstat64(9, {st_mode=S_IFREG|0644, st_size=4575722, ...}) = 0
+close(9)                                = 0
+munmap(0x72900000, 31476)               = 0
+getpid()                                = 1422
+brk(0x11f9000)                          = 0x11f9000
+brk(0x121a000)                          = 0x121a000
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50428) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50428) = 0
+brk(0x1248000)                          = 0x1248000
+brk(0x126e000)                          = 0x126e000
+brk(0x1295000)                          = 0x1295000
+mmap2(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x67687000
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50118) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50120) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50270) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50118) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50120) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50270) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50278) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea502d0) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50218) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea501d8) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50228) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50200) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea50428) = 0
+brk(0x12b6000)                          = 0x12b6000
+brk(0x12d7000)                          = 0x12d7000
+brk(0x12f8000)                          = 0x12f8000
+brk(0x1319000)                          = 0x1319000
+brk(0x133a000)                          = 0x133a000
+brk(0x135b000)                          = 0x135b000
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9
+fstat64(9, {st_mode=S_IFREG|0644, st_size=31476, ...}) = 0
+mmap2(NULL, 31476, PROT_READ, MAP_PRIVATE, 9, 0) = 0x72900000
+close(9)                                = 0
+openat(AT_FDCWD, "/usr/lib/libGLSLC.so", O_RDONLY|O_CLOEXEC) = 9
+read(9, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\304I\0\0004\0\0\0"..., 512) = 512
+fstat64(9, {st_mode=S_IFREG|0644, st_size=1846091, ...}) = 0
+mmap2(NULL, 558960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9, 0) = 0x675be000
+mprotect(0x67638000, 28672, PROT_NONE)  = 0
+mmap2(0x6763f000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x79000) = 0x6763f000
+close(9)                                = 0
+munmap(0x72900000, 31476)               = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea504c0) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\226\5\4\0\0\0\0\0\0\0\0\0\n\0\240\0", iov_len=16}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 16
+futex(0x7ea50610, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\4\0\6\0\0\0vivext\0\0", iov_len=16}], 1) = 16
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="b\0\4\0\6\0\0\0vivext\0\0", iov_len=16}], 1) = 16
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+writev(3, [{iov_base="\231\21\2\0\0\0\0\0", iov_len=8}], 1) = 8
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x105cc14, FUTEX_WAKE_PRIVATE, 1) = 0
+ioctl(6, _IOC(0, 0x75, 0x30, 0), 0x7ea505c0) = 0
+mmap2(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x66dbd000
+mprotect(0x66dbe000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x675bcf78, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x675bd4a8, tls=0x675bd900, child_tidptr=0x675bd4a8) = 1426
+futex(0x1188178, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x11ba730, FUTEX_WAIT_PRIVATE, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+write(5, "\1\0\0\0\0\0\0\0", 8)         = 8
+sigreturn({mask=[]})                    = 18589488
+futex(0x11ba730, FUTEX_WAIT_PRIVATE, 0, NULL
